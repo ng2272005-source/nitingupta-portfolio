@@ -1,0 +1,155 @@
+nav ul {
+    display : flex;
+    gap: 17px;
+    color: wheat;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    
+}
+
+nav {
+    display : flex;
+    justify-content: space-around;
+    background-color: rgb(13, 85, 89);
+     background: linear-gradient(to right, #3f3f76 0%, #1c1c8a 100%);
+     border-radius: 1px;
+     border-color: rgb(222, 19, 19);
+     border-bottom: 2px solid white;
+}
+.logo{
+    font-size: 30px;
+    font-family: copper;
+    font-style: italic;
+    font-weight: bold;
+    color:#dce0b7;
+    padding: 8px;
+    
+
+}
+.div{
+    padding: 5px;
+    color: white;
+    
+}
+
+nav ul li {
+    list-style-type: none;
+    border-right: 2px solid white;
+    padding-right: 10px;
+}
+nav ul li:last-child{
+    border-right: none;
+    
+}
+nav ul li a {
+    color: wheat;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    padding: 5px;
+    appearance: none;
+
+
+}
+nav ul li button {
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.hero{
+    background: linear-gradient(rgb(1, 15, 48) , rgb(0, 0, 0));
+    display: flex;
+    justify-content: center;
+    gap: 50px;    
+    height: 95vh;
+    color: white;
+    align-items: center;
+    padding-right: 60px;
+    }
+.hero-left {
+    font-size: 40px;
+    text-align: center;
+   margin-left: 220px;
+}
+.hero-left .two{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(242, 247, 247)
+}
+.hero-left .one{
+    font-family: Copper;
+    font-weight: bolder;
+    color: rgb(164, 225, 131)
+}
+
+.hero-right img {
+    border: 3px solid white;
+    border-radius: 40px;
+    width:290px;
+    height: auto;
+    border-style: dotted;
+
+}
+.btn {
+    
+    cursor: hand;
+    background: rgb(241, 234, 234);
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 7px;
+    border: 0.5px solid rgb(255, 240, 255);
+    font-size: 16px;
+    box-shadow: 2px 2px 6px rgb(68, 61, 107);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    
+}
+.btn:hover {
+    background: rgb(16, 12, 75);
+    transition: all 0.5s;
+    color: rgb(242, 239, 247);
+    box-shadow: white;
+    border: none;
+    
+}
+
+
+
+
+@media screen and (max-width: 951px) {
+    body {
+        background-color: red;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 11px;
+    }
+
+    .hero {
+        margin-left: 0px ;
+        flex-direction: column-reverse;
+        align-items: center;
+        height: auto;
+        min-height: 85vh;
+    }
+    
+}
+
+.about-page {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    margin: 0;
+}
+
+button:hover{
+    text-decoration: underline solid white;
+
+}
