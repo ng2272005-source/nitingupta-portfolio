@@ -122,25 +122,72 @@ nav ul li button {
 
 
 
-@media screen and (max-width: 951px) {
-    body {
-        background-color: red;
-    }
+@media screen and (max-width: 600px) {
     nav {
         flex-direction: column;
         align-items: center;
-        gap: 11px;
+        padding: 10px;
+        gap: 5px;
+    }
+
+    .logo {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 0;
+        font-size: 12px;
+    }
+
+    nav ul li {
+        padding-right: 6px;
     }
 
     .hero {
-        margin-left: 0px ;
         flex-direction: column-reverse;
+        justify-content: center;
         align-items: center;
+        gap: 25px;
         height: auto;
         min-height: 85vh;
+        padding: 25px 15px;
+        box-sizing: border-box;
     }
-    
+
+    .hero-left {
+        margin-left: 0;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .hero-left .two {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .hero-right img {
+        width: 200px;
+        max-width: 80%;
+        height: auto;
+    }
+
+    .btn {
+        display: inline-block;
+        margin: 5px;
+        padding: 8px 12px;
+    }
+
+    body {
+        margin: 0;
+        overflow-x: hidden;
+    }
 }
+
+
 
 .about-page {
     background-color: black;
